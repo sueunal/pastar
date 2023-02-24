@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct ToolCookApp: App {
+struct PastaTimerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
