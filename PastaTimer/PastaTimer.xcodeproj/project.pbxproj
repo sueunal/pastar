@@ -7,67 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C0BF80429A74B4A0086E595 /* pastarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BF80329A74B4A0086E595 /* pastarApp.swift */; };
-		2C0BF80629A74B4A0086E595 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BF80529A74B4A0086E595 /* ContentView.swift */; };
-		2C0BF80829A74B4B0086E595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0BF80729A74B4B0086E595 /* Assets.xcassets */; };
-		2C0BF80B29A74B4B0086E595 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0BF80A29A74B4B0086E595 /* Preview Assets.xcassets */; };
-		2C0BF81529A74B4B0086E595 /* pastarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BF81429A74B4B0086E595 /* pastarTests.swift */; };
-		2C0BF81F29A74B4B0086E595 /* pastarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BF81E29A74B4B0086E595 /* pastarUITests.swift */; };
-		2C0BF82129A74B4B0086E595 /* pastarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BF82029A74B4B0086E595 /* pastarUITestsLaunchTests.swift */; };
-		2C0BF82E29A751B70086E595 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BF82D29A751B70086E595 /* TimerView.swift */; };
-		2C0BF83029A7600F0086E595 /* start_stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BF82F29A7600F0086E595 /* start_stop.swift */; };
-		2C0BF83229A8F1D00086E595 /* selectPastar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BF83129A8F1D00086E595 /* selectPastar.swift */; };
+		2C4A3A9129AA437300031DA6 /* PastaTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A3A9029AA437300031DA6 /* PastaTimerApp.swift */; };
+		2C4A3A9329AA437300031DA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A3A9229AA437300031DA6 /* ContentView.swift */; };
+		2C4A3A9529AA437300031DA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4A3A9429AA437300031DA6 /* Assets.xcassets */; };
+		2C4A3A9829AA437300031DA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4A3A9729AA437300031DA6 /* Preview Assets.xcassets */; };
+		2C4A3AA229AA437300031DA6 /* PastaTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A3AA129AA437300031DA6 /* PastaTimerTests.swift */; };
+		2C4A3AAC29AA437300031DA6 /* PastaTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A3AAB29AA437300031DA6 /* PastaTimerUITests.swift */; };
+		2C4A3AAE29AA437300031DA6 /* PastaTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A3AAD29AA437300031DA6 /* PastaTimerUITestsLaunchTests.swift */; };
+		2CCDB31E29AA44CD00D58154 /* start_stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDB31B29AA44CD00D58154 /* start_stop.swift */; };
+		2CCDB31F29AA44CD00D58154 /* timerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDB31C29AA44CD00D58154 /* timerView.swift */; };
+		2CCDB32029AA44CD00D58154 /* selectPastar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDB31D29AA44CD00D58154 /* selectPastar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2C0BF81129A74B4B0086E595 /* PBXContainerItemProxy */ = {
+		2C4A3A9E29AA437300031DA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2C0BF7F829A74B4A0086E595 /* Project object */;
+			containerPortal = 2C4A3A8529AA437300031DA6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2C0BF7FF29A74B4A0086E595;
-			remoteInfo = pastar;
+			remoteGlobalIDString = 2C4A3A8C29AA437300031DA6;
+			remoteInfo = PastaTimer;
 		};
-		2C0BF81B29A74B4B0086E595 /* PBXContainerItemProxy */ = {
+		2C4A3AA829AA437300031DA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2C0BF7F829A74B4A0086E595 /* Project object */;
+			containerPortal = 2C4A3A8529AA437300031DA6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2C0BF7FF29A74B4A0086E595;
-			remoteInfo = pastar;
+			remoteGlobalIDString = 2C4A3A8C29AA437300031DA6;
+			remoteInfo = PastaTimer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C0BF80029A74B4A0086E595 /* pastar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pastar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C0BF80329A74B4A0086E595 /* pastarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pastarApp.swift; sourceTree = "<group>"; };
-		2C0BF80529A74B4A0086E595 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2C0BF80729A74B4B0086E595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C0BF80A29A74B4B0086E595 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2C0BF81029A74B4B0086E595 /* pastarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pastarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C0BF81429A74B4B0086E595 /* pastarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pastarTests.swift; sourceTree = "<group>"; };
-		2C0BF81A29A74B4B0086E595 /* pastarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pastarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C0BF81E29A74B4B0086E595 /* pastarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pastarUITests.swift; sourceTree = "<group>"; };
-		2C0BF82029A74B4B0086E595 /* pastarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pastarUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2C0BF82D29A751B70086E595 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
-		2C0BF82F29A7600F0086E595 /* start_stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = start_stop.swift; sourceTree = "<group>"; };
-		2C0BF83129A8F1D00086E595 /* selectPastar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectPastar.swift; sourceTree = "<group>"; };
+		2C4A3A8D29AA437300031DA6 /* PastaTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PastaTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4A3A9029AA437300031DA6 /* PastaTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaTimerApp.swift; sourceTree = "<group>"; };
+		2C4A3A9229AA437300031DA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C4A3A9429AA437300031DA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C4A3A9729AA437300031DA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C4A3A9D29AA437300031DA6 /* PastaTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PastaTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4A3AA129AA437300031DA6 /* PastaTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaTimerTests.swift; sourceTree = "<group>"; };
+		2C4A3AA729AA437300031DA6 /* PastaTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PastaTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4A3AAB29AA437300031DA6 /* PastaTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaTimerUITests.swift; sourceTree = "<group>"; };
+		2C4A3AAD29AA437300031DA6 /* PastaTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2CCDB31B29AA44CD00D58154 /* start_stop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = start_stop.swift; sourceTree = "<group>"; };
+		2CCDB31C29AA44CD00D58154 /* timerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timerView.swift; sourceTree = "<group>"; };
+		2CCDB31D29AA44CD00D58154 /* selectPastar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = selectPastar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2C0BF7FD29A74B4A0086E595 /* Frameworks */ = {
+		2C4A3A8A29AA437300031DA6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C0BF80D29A74B4B0086E595 /* Frameworks */ = {
+		2C4A3A9A29AA437300031DA6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C0BF81729A74B4B0086E595 /* Frameworks */ = {
+		2C4A3AA429AA437300031DA6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,145 +77,145 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C0BF7F729A74B4A0086E595 = {
+		2C4A3A8429AA437300031DA6 = {
 			isa = PBXGroup;
 			children = (
-				2C0BF80229A74B4A0086E595 /* pastar */,
-				2C0BF81329A74B4B0086E595 /* pastarTests */,
-				2C0BF81D29A74B4B0086E595 /* pastarUITests */,
-				2C0BF80129A74B4A0086E595 /* Products */,
+				2C4A3A8F29AA437300031DA6 /* PastaTimer */,
+				2C4A3AA029AA437300031DA6 /* PastaTimerTests */,
+				2C4A3AAA29AA437300031DA6 /* PastaTimerUITests */,
+				2C4A3A8E29AA437300031DA6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2C0BF80129A74B4A0086E595 /* Products */ = {
+		2C4A3A8E29AA437300031DA6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C0BF80029A74B4A0086E595 /* pastar.app */,
-				2C0BF81029A74B4B0086E595 /* pastarTests.xctest */,
-				2C0BF81A29A74B4B0086E595 /* pastarUITests.xctest */,
+				2C4A3A8D29AA437300031DA6 /* PastaTimer.app */,
+				2C4A3A9D29AA437300031DA6 /* PastaTimerTests.xctest */,
+				2C4A3AA729AA437300031DA6 /* PastaTimerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C0BF80229A74B4A0086E595 /* pastar */ = {
+		2C4A3A8F29AA437300031DA6 /* PastaTimer */ = {
 			isa = PBXGroup;
 			children = (
-				2C0BF83129A8F1D00086E595 /* selectPastar.swift */,
-				2C0BF82F29A7600F0086E595 /* start_stop.swift */,
-				2C0BF80329A74B4A0086E595 /* pastarApp.swift */,
-				2C0BF80529A74B4A0086E595 /* ContentView.swift */,
-				2C0BF82D29A751B70086E595 /* TimerView.swift */,
-				2C0BF80729A74B4B0086E595 /* Assets.xcassets */,
-				2C0BF80929A74B4B0086E595 /* Preview Content */,
+				2CCDB31D29AA44CD00D58154 /* selectPastar.swift */,
+				2CCDB31B29AA44CD00D58154 /* start_stop.swift */,
+				2CCDB31C29AA44CD00D58154 /* timerView.swift */,
+				2C4A3A9029AA437300031DA6 /* PastaTimerApp.swift */,
+				2C4A3A9229AA437300031DA6 /* ContentView.swift */,
+				2C4A3A9429AA437300031DA6 /* Assets.xcassets */,
+				2C4A3A9629AA437300031DA6 /* Preview Content */,
 			);
-			path = pastar;
+			path = PastaTimer;
 			sourceTree = "<group>";
 		};
-		2C0BF80929A74B4B0086E595 /* Preview Content */ = {
+		2C4A3A9629AA437300031DA6 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				2C0BF80A29A74B4B0086E595 /* Preview Assets.xcassets */,
+				2C4A3A9729AA437300031DA6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2C0BF81329A74B4B0086E595 /* pastarTests */ = {
+		2C4A3AA029AA437300031DA6 /* PastaTimerTests */ = {
 			isa = PBXGroup;
 			children = (
-				2C0BF81429A74B4B0086E595 /* pastarTests.swift */,
+				2C4A3AA129AA437300031DA6 /* PastaTimerTests.swift */,
 			);
-			path = pastarTests;
+			path = PastaTimerTests;
 			sourceTree = "<group>";
 		};
-		2C0BF81D29A74B4B0086E595 /* pastarUITests */ = {
+		2C4A3AAA29AA437300031DA6 /* PastaTimerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2C0BF81E29A74B4B0086E595 /* pastarUITests.swift */,
-				2C0BF82029A74B4B0086E595 /* pastarUITestsLaunchTests.swift */,
+				2C4A3AAB29AA437300031DA6 /* PastaTimerUITests.swift */,
+				2C4A3AAD29AA437300031DA6 /* PastaTimerUITestsLaunchTests.swift */,
 			);
-			path = pastarUITests;
+			path = PastaTimerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C0BF7FF29A74B4A0086E595 /* pastar */ = {
+		2C4A3A8C29AA437300031DA6 /* PastaTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C0BF82429A74B4B0086E595 /* Build configuration list for PBXNativeTarget "pastar" */;
+			buildConfigurationList = 2C4A3AB129AA437300031DA6 /* Build configuration list for PBXNativeTarget "PastaTimer" */;
 			buildPhases = (
-				2C0BF7FC29A74B4A0086E595 /* Sources */,
-				2C0BF7FD29A74B4A0086E595 /* Frameworks */,
-				2C0BF7FE29A74B4A0086E595 /* Resources */,
+				2C4A3A8929AA437300031DA6 /* Sources */,
+				2C4A3A8A29AA437300031DA6 /* Frameworks */,
+				2C4A3A8B29AA437300031DA6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = pastar;
-			productName = pastar;
-			productReference = 2C0BF80029A74B4A0086E595 /* pastar.app */;
+			name = PastaTimer;
+			productName = PastaTimer;
+			productReference = 2C4A3A8D29AA437300031DA6 /* PastaTimer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2C0BF80F29A74B4B0086E595 /* pastarTests */ = {
+		2C4A3A9C29AA437300031DA6 /* PastaTimerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C0BF82729A74B4B0086E595 /* Build configuration list for PBXNativeTarget "pastarTests" */;
+			buildConfigurationList = 2C4A3AB429AA437300031DA6 /* Build configuration list for PBXNativeTarget "PastaTimerTests" */;
 			buildPhases = (
-				2C0BF80C29A74B4B0086E595 /* Sources */,
-				2C0BF80D29A74B4B0086E595 /* Frameworks */,
-				2C0BF80E29A74B4B0086E595 /* Resources */,
+				2C4A3A9929AA437300031DA6 /* Sources */,
+				2C4A3A9A29AA437300031DA6 /* Frameworks */,
+				2C4A3A9B29AA437300031DA6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2C0BF81229A74B4B0086E595 /* PBXTargetDependency */,
+				2C4A3A9F29AA437300031DA6 /* PBXTargetDependency */,
 			);
-			name = pastarTests;
-			productName = pastarTests;
-			productReference = 2C0BF81029A74B4B0086E595 /* pastarTests.xctest */;
+			name = PastaTimerTests;
+			productName = PastaTimerTests;
+			productReference = 2C4A3A9D29AA437300031DA6 /* PastaTimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2C0BF81929A74B4B0086E595 /* pastarUITests */ = {
+		2C4A3AA629AA437300031DA6 /* PastaTimerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C0BF82A29A74B4B0086E595 /* Build configuration list for PBXNativeTarget "pastarUITests" */;
+			buildConfigurationList = 2C4A3AB729AA437300031DA6 /* Build configuration list for PBXNativeTarget "PastaTimerUITests" */;
 			buildPhases = (
-				2C0BF81629A74B4B0086E595 /* Sources */,
-				2C0BF81729A74B4B0086E595 /* Frameworks */,
-				2C0BF81829A74B4B0086E595 /* Resources */,
+				2C4A3AA329AA437300031DA6 /* Sources */,
+				2C4A3AA429AA437300031DA6 /* Frameworks */,
+				2C4A3AA529AA437300031DA6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2C0BF81C29A74B4B0086E595 /* PBXTargetDependency */,
+				2C4A3AA929AA437300031DA6 /* PBXTargetDependency */,
 			);
-			name = pastarUITests;
-			productName = pastarUITests;
-			productReference = 2C0BF81A29A74B4B0086E595 /* pastarUITests.xctest */;
+			name = PastaTimerUITests;
+			productName = PastaTimerUITests;
+			productReference = 2C4A3AA729AA437300031DA6 /* PastaTimerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2C0BF7F829A74B4A0086E595 /* Project object */ = {
+		2C4A3A8529AA437300031DA6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					2C0BF7FF29A74B4A0086E595 = {
+					2C4A3A8C29AA437300031DA6 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					2C0BF80F29A74B4B0086E595 = {
+					2C4A3A9C29AA437300031DA6 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 2C0BF7FF29A74B4A0086E595;
+						TestTargetID = 2C4A3A8C29AA437300031DA6;
 					};
-					2C0BF81929A74B4B0086E595 = {
+					2C4A3AA629AA437300031DA6 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 2C0BF7FF29A74B4A0086E595;
+						TestTargetID = 2C4A3A8C29AA437300031DA6;
 					};
 				};
 			};
-			buildConfigurationList = 2C0BF7FB29A74B4A0086E595 /* Build configuration list for PBXProject "pastar" */;
+			buildConfigurationList = 2C4A3A8829AA437300031DA6 /* Build configuration list for PBXProject "PastaTimer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,36 +223,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 2C0BF7F729A74B4A0086E595;
-			productRefGroup = 2C0BF80129A74B4A0086E595 /* Products */;
+			mainGroup = 2C4A3A8429AA437300031DA6;
+			productRefGroup = 2C4A3A8E29AA437300031DA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C0BF7FF29A74B4A0086E595 /* pastar */,
-				2C0BF80F29A74B4B0086E595 /* pastarTests */,
-				2C0BF81929A74B4B0086E595 /* pastarUITests */,
+				2C4A3A8C29AA437300031DA6 /* PastaTimer */,
+				2C4A3A9C29AA437300031DA6 /* PastaTimerTests */,
+				2C4A3AA629AA437300031DA6 /* PastaTimerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2C0BF7FE29A74B4A0086E595 /* Resources */ = {
+		2C4A3A8B29AA437300031DA6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C0BF80B29A74B4B0086E595 /* Preview Assets.xcassets in Resources */,
-				2C0BF80829A74B4B0086E595 /* Assets.xcassets in Resources */,
+				2C4A3A9829AA437300031DA6 /* Preview Assets.xcassets in Resources */,
+				2C4A3A9529AA437300031DA6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C0BF80E29A74B4B0086E595 /* Resources */ = {
+		2C4A3A9B29AA437300031DA6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C0BF81829A74B4B0086E595 /* Resources */ = {
+		2C4A3AA529AA437300031DA6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,52 +262,52 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2C0BF7FC29A74B4A0086E595 /* Sources */ = {
+		2C4A3A8929AA437300031DA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C0BF80629A74B4A0086E595 /* ContentView.swift in Sources */,
-				2C0BF82E29A751B70086E595 /* TimerView.swift in Sources */,
-				2C0BF83229A8F1D00086E595 /* selectPastar.swift in Sources */,
-				2C0BF83029A7600F0086E595 /* start_stop.swift in Sources */,
-				2C0BF80429A74B4A0086E595 /* pastarApp.swift in Sources */,
+				2CCDB31E29AA44CD00D58154 /* start_stop.swift in Sources */,
+				2C4A3A9329AA437300031DA6 /* ContentView.swift in Sources */,
+				2CCDB32029AA44CD00D58154 /* selectPastar.swift in Sources */,
+				2CCDB31F29AA44CD00D58154 /* timerView.swift in Sources */,
+				2C4A3A9129AA437300031DA6 /* PastaTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C0BF80C29A74B4B0086E595 /* Sources */ = {
+		2C4A3A9929AA437300031DA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C0BF81529A74B4B0086E595 /* pastarTests.swift in Sources */,
+				2C4A3AA229AA437300031DA6 /* PastaTimerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C0BF81629A74B4B0086E595 /* Sources */ = {
+		2C4A3AA329AA437300031DA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C0BF81F29A74B4B0086E595 /* pastarUITests.swift in Sources */,
-				2C0BF82129A74B4B0086E595 /* pastarUITestsLaunchTests.swift in Sources */,
+				2C4A3AAE29AA437300031DA6 /* PastaTimerUITestsLaunchTests.swift in Sources */,
+				2C4A3AAC29AA437300031DA6 /* PastaTimerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2C0BF81229A74B4B0086E595 /* PBXTargetDependency */ = {
+		2C4A3A9F29AA437300031DA6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2C0BF7FF29A74B4A0086E595 /* pastar */;
-			targetProxy = 2C0BF81129A74B4B0086E595 /* PBXContainerItemProxy */;
+			target = 2C4A3A8C29AA437300031DA6 /* PastaTimer */;
+			targetProxy = 2C4A3A9E29AA437300031DA6 /* PBXContainerItemProxy */;
 		};
-		2C0BF81C29A74B4B0086E595 /* PBXTargetDependency */ = {
+		2C4A3AA929AA437300031DA6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2C0BF7FF29A74B4A0086E595 /* pastar */;
-			targetProxy = 2C0BF81B29A74B4B0086E595 /* PBXContainerItemProxy */;
+			target = 2C4A3A8C29AA437300031DA6 /* PastaTimer */;
+			targetProxy = 2C4A3AA829AA437300031DA6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2C0BF82229A74B4B0086E595 /* Debug */ = {
+		2C4A3AAF29AA437300031DA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -367,7 +367,7 @@
 			};
 			name = Debug;
 		};
-		2C0BF82329A74B4B0086E595 /* Release */ = {
+		2C4A3AB029AA437300031DA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -421,14 +421,14 @@
 			};
 			name = Release;
 		};
-		2C0BF82529A74B4B0086E595 /* Debug */ = {
+		2C4A3AB229AA437300031DA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"pastar/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PastaTimer/Preview Content\"";
 				DEVELOPMENT_TEAM = U4BQZ3AXAA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -442,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.pastar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.PastaTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -450,14 +450,14 @@
 			};
 			name = Debug;
 		};
-		2C0BF82629A74B4B0086E595 /* Release */ = {
+		2C4A3AB329AA437300031DA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"pastar/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PastaTimer/Preview Content\"";
 				DEVELOPMENT_TEAM = U4BQZ3AXAA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -471,7 +471,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.pastar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.PastaTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -479,7 +479,7 @@
 			};
 			name = Release;
 		};
-		2C0BF82829A74B4B0086E595 /* Debug */ = {
+		2C4A3AB529AA437300031DA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -490,16 +490,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.pastarTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.PastaTimerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pastar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pastar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PastaTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PastaTimer";
 			};
 			name = Debug;
 		};
-		2C0BF82929A74B4B0086E595 /* Release */ = {
+		2C4A3AB629AA437300031DA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -510,16 +510,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.pastarTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.PastaTimerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pastar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pastar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PastaTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PastaTimer";
 			};
 			name = Release;
 		};
-		2C0BF82B29A74B4B0086E595 /* Debug */ = {
+		2C4A3AB829AA437300031DA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -528,16 +528,16 @@
 				DEVELOPMENT_TEAM = U4BQZ3AXAA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.pastarUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.PastaTimerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = pastar;
+				TEST_TARGET_NAME = PastaTimer;
 			};
 			name = Debug;
 		};
-		2C0BF82C29A74B4B0086E595 /* Release */ = {
+		2C4A3AB929AA437300031DA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -546,55 +546,55 @@
 				DEVELOPMENT_TEAM = U4BQZ3AXAA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.pastarUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.PastaTimerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = pastar;
+				TEST_TARGET_NAME = PastaTimer;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C0BF7FB29A74B4A0086E595 /* Build configuration list for PBXProject "pastar" */ = {
+		2C4A3A8829AA437300031DA6 /* Build configuration list for PBXProject "PastaTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C0BF82229A74B4B0086E595 /* Debug */,
-				2C0BF82329A74B4B0086E595 /* Release */,
+				2C4A3AAF29AA437300031DA6 /* Debug */,
+				2C4A3AB029AA437300031DA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C0BF82429A74B4B0086E595 /* Build configuration list for PBXNativeTarget "pastar" */ = {
+		2C4A3AB129AA437300031DA6 /* Build configuration list for PBXNativeTarget "PastaTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C0BF82529A74B4B0086E595 /* Debug */,
-				2C0BF82629A74B4B0086E595 /* Release */,
+				2C4A3AB229AA437300031DA6 /* Debug */,
+				2C4A3AB329AA437300031DA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C0BF82729A74B4B0086E595 /* Build configuration list for PBXNativeTarget "pastarTests" */ = {
+		2C4A3AB429AA437300031DA6 /* Build configuration list for PBXNativeTarget "PastaTimerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C0BF82829A74B4B0086E595 /* Debug */,
-				2C0BF82929A74B4B0086E595 /* Release */,
+				2C4A3AB529AA437300031DA6 /* Debug */,
+				2C4A3AB629AA437300031DA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C0BF82A29A74B4B0086E595 /* Build configuration list for PBXNativeTarget "pastarUITests" */ = {
+		2C4A3AB729AA437300031DA6 /* Build configuration list for PBXNativeTarget "PastaTimerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C0BF82B29A74B4B0086E595 /* Debug */,
-				2C0BF82C29A74B4B0086E595 /* Release */,
+				2C4A3AB829AA437300031DA6 /* Debug */,
+				2C4A3AB929AA437300031DA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2C0BF7F829A74B4A0086E595 /* Project object */;
+	rootObject = 2C4A3A8529AA437300031DA6 /* Project object */;
 }

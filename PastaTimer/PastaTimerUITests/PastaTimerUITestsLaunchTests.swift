@@ -1,13 +1,13 @@
 //
-//  pastarUITestsLaunchTests.swift
-//  pastarUITests
+//  PastaTimerUITestsLaunchTests.swift
+//  PastaTimerUITests
 //
-//  Created by sueun kim on 2023/02/23.
+//  Created by sueun kim on 2023/02/25.
 //
 
 import XCTest
 
-final class pastarUITestsLaunchTests: XCTestCase {
+final class PastaTimerUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

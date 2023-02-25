@@ -1,13 +1,13 @@
 //
-//  pastarUITests.swift
-//  pastarUITests
+//  PastaTimerUITests.swift
+//  PastaTimerUITests
 //
-//  Created by sueun kim on 2023/02/23.
+//  Created by sueun kim on 2023/02/25.
 //
 
 import XCTest
 
-final class pastarUITests: XCTestCase {
+final class PastaTimerUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

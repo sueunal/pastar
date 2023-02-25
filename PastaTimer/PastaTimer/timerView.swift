@@ -7,7 +7,6 @@
 import SwiftUI
 struct timerView: View {
     @State private var elapsedTime: TimeInterval = 0
-    
     let timer = Timer.publish(every: 1, on: .main, in: .common)
     let duration: TimeInterval = 15 * 60 // 15 minutes in seconds
     var remainingTime: TimeInterval {
