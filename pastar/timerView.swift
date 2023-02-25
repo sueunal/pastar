@@ -11,18 +11,15 @@ struct timerView: View {
     var body: some View {
         VStack{
             Text(convertSecondToTime(timer:timer))
-                .font(.system(size:80))
+                .font(.system(size:65))
                 .fontDesign(.monospaced)
                 .bold()
                 .italic()
         }
     }
     func convertSecondToTime(timer : Int)-> String{
-        let hours = timer / 3600
-        let minutes = (timer - hours*3600) / 60
-        let seconds = timer % 60
         
-       return String(format: "%02i:%02i:%02i", hours,minutes,seconds)
+       return String(format: "%02i:%02i", 15,00)
     }
 }
 

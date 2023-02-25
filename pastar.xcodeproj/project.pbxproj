@@ -16,6 +16,7 @@
 		2C0BF82129A74B4B0086E595 /* pastarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BF82029A74B4B0086E595 /* pastarUITestsLaunchTests.swift */; };
 		2C0BF82E29A751B70086E595 /* timerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BF82D29A751B70086E595 /* timerView.swift */; };
 		2C0BF83029A7600F0086E595 /* start_stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BF82F29A7600F0086E595 /* start_stop.swift */; };
+		2C0BF83229A8F1D00086E595 /* selectPastar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BF83129A8F1D00086E595 /* selectPastar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		2C0BF82029A74B4B0086E595 /* pastarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pastarUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2C0BF82D29A751B70086E595 /* timerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerView.swift; sourceTree = "<group>"; };
 		2C0BF82F29A7600F0086E595 /* start_stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = start_stop.swift; sourceTree = "<group>"; };
+		2C0BF83129A8F1D00086E595 /* selectPastar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectPastar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		2C0BF80229A74B4A0086E595 /* pastar */ = {
 			isa = PBXGroup;
 			children = (
+				2C0BF83129A8F1D00086E595 /* selectPastar.swift */,
 				2C0BF82F29A7600F0086E595 /* start_stop.swift */,
 				2C0BF80329A74B4A0086E595 /* pastarApp.swift */,
 				2C0BF80529A74B4A0086E595 /* ContentView.swift */,
@@ -265,6 +268,7 @@
 			files = (
 				2C0BF80629A74B4A0086E595 /* ContentView.swift in Sources */,
 				2C0BF82E29A751B70086E595 /* timerView.swift in Sources */,
+				2C0BF83229A8F1D00086E595 /* selectPastar.swift in Sources */,
 				2C0BF83029A7600F0086E595 /* start_stop.swift in Sources */,
 				2C0BF80429A74B4A0086E595 /* pastarApp.swift in Sources */,
 			);
