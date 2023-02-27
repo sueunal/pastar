@@ -4,11 +4,9 @@
 //
 //  Created by sueun kim on 2023/02/23.
 //
-import SwiftUI
 
+import SwiftUI
 struct ContentView: View {
-    
-    @State var startButton : Bool = true
     var body: some View {
         ZStack{
             Color("backgroundColor").ignoresSafeArea(.all)
@@ -20,13 +18,19 @@ struct ContentView: View {
                 Text("👩🏻‍🍳")
                     .font(.system(size:40))
                     .padding(.top,30)
-                start_stop()
-                selectPastar()
                 Spacer()
+                VStack{
+                    Spacer()
+                    selectPastar()
+                    }
+                start_stop()
+                Spacer()
+                    .padding(.bottom,100)
             }
         }
     }
 }
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

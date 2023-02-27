@@ -8,20 +8,23 @@
 import SwiftUI
 
 struct start_stop: View {
-    @State private var pastaButton : Bool = true
-    @State var resetButton : Bool = true
+    @State var pastarButton : Bool = true
+    
+    var resetButton : Bool = true
     var body: some View {
         VStack{
-                    timerView(pastaButton: $pastaButton, resetButton: $resetButton)
+                    Spacer()
                     HStack{
                         Button {
-                            pastaButton.toggle()
+                            pastarButton.toggle()
+                            if pastarButton {
+                            }
                         } label: {
-                            Text(pastaButton ? "Start" : "Stop")
+                            Text(pastarButton ? "Start" : "Stop")
                                 .foregroundColor(.white)
                                 .font(.system(size:25))
                                 .frame(width: 100,height: 50)
-                                .background(pastaButton ? Color("startColor") : Color(.red))
+                                .background(pastarButton ? Color("startColor") : Color(.red))
                                 .cornerRadius(75)
                                 .padding(.trailing,25)
                                 .bold()
