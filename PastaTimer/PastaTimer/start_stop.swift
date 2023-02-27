@@ -9,10 +9,12 @@ import SwiftUI
 
 struct start_stop: View {
     @State private var pastaButton : Bool = true
-    @State var resetButton : Bool = true
+    @State var resetButton : Bool = false
+    @State var duration : TimeInterval = 60 * 10
+    
     var body: some View {
         VStack{
-                    timerView(pastaButton: $pastaButton, resetButton: $resetButton)
+            timerView(pastaButton: $pastaButton, resetButton: $resetButton, timeRating:$duration ,duration: duration)
                     HStack{
                         Button {
                             pastaButton.toggle()

@@ -21,7 +21,6 @@ struct ContentView: View {
                     .font(.system(size:40))
                     .padding(.top,30)
                 start_stop()
-                selectPastar()
                 Spacer()
             }
         }
