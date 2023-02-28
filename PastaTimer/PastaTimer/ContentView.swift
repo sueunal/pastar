@@ -7,23 +7,36 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-            ZStack{
-                Color("backgroundColor").ignoresSafeArea(.all)
-                VStack{
-                    Text("파스타 타이머🍝")
-                        .font(.system(size:25))
-                        .bold()
-                        .padding(.top,60)
-                    Text("👩🏻‍🍳")
-                        .font(.system(size:40))
-                        .padding(.top,30)
-                    StartStop()
-                    Spacer()
-                }
-            }
-    }
-}
+    @State private var selection = 0
+       var body: some View {
+           TabView {
+               Text("First Tab")
+                   .tabItem {
+                       Image(systemName: "1.square.fill")
+                       Text("First")
+                           .tag(0)
+                   }
+                Text("Second Tab")
+                   .tabItem {
+                       Image(systemName: "2.square.fill")
+                       Text("Second")
+                           .tag(1)
+                   }
+                    Text("조엘")
+                   .tabItem {
+                       Image(systemName: "3.square.fill")
+                       Text("조앨")
+                           .tag(2)
+                   }
+                    SuhaTabView()
+                   .tabItem {
+                       Image(systemName: "4.square.fill")
+                       Text("수하")
+                           .tag(3)
+                   }
+           }
+       }
+   }
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
