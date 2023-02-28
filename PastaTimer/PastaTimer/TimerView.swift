@@ -6,37 +6,38 @@
 //
 import SwiftUI
 
-struct timerView: View {
-    @Binding var pastaButton: Bool
-    @Binding var resetButton: Bool
-    @Binding var timeRating : TimeInterval
+struct TimerView: View {
+    @Binding var PastaStateButton: Bool
+    @Binding var ResetButton: Bool
+    @Binding var TimeRating : TimeInterval
     @State private var elapsedTime: TimeInterval = 0
-    @State var pastarButton : [pastarSelector] = [.pastar1,.pastar2,.pastar3]
+    
+    @State var PastaButton : [PastaSelector] = [.pasta1,.pasta2,.pasta3]
     
     var timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     let duration: TimeInterval
     var remainingTime: TimeInterval {
         max(duration - elapsedTime, 0)
     }
-    enum pastarSelector {
-        case pastar1, pastar2, pastar3
-        var pastarName : String {
+    enum PastaSelector{
+        case pasta1, pasta2, pasta3
+        var PastaName : String {
             switch self {
-            case .pastar1:
-                return "pastar1"
-            case .pastar2:
-                return "pastar2"
-            case .pastar3:
-                return "pastar3"
+            case .pasta1:
+                return "pasta1"
+            case .pasta2:
+                return "pasta2"
+            case .pasta3:
+                return "pasta3"
             }
         }
-        var pastarColor : Color {
+        var PastaColor : Color {
             switch self{
-            case .pastar1:
+            case .pasta1:
                 return Color("pastar1Color")
-            case .pastar2:
+            case .pasta2:
                 return Color("pastar2Color")
-            case .pastar3:
+            case .pasta3:
                 return Color("pastar3Color")
             }
         }
@@ -48,13 +49,13 @@ struct timerView: View {
                     .font(.system(size:65))
                     .italic()
                     .onReceive(timer) { _ in
-                        if pastaButton {
+                        if PastaStateButton {
                             timer.upstream.connect().cancel()
                         }else if elapsedTime < duration {
                             elapsedTime += 1
-                        }else if pastaButton {
+                        }else if PastaStateButton {
                             timer.upstream.connect().cancel()
-                        }else if resetButton {
+                        }else if ResetButton {
                             timer.upstream.connect().cancel()
                         }
                     }
@@ -66,21 +67,20 @@ struct timerView: View {
                         Text("면 종류를 선택해 주세요")
                             .padding(.top,50)
                         HStack{
-                            ForEach(pastarButton,id:\.self){ pastar in
+                            ForEach(PastaButton,id:\.self){ Pasta in
                                 Button {
-                                    if pastar.pastarName == "pastar1"{
-                                        timeRating = 60 * 10
-                                    }
-                                    else if pastar.pastarName == "pastar2"{
-                                        timeRating = 60 * 15
-                                    }else if  pastar.pastarName == "pastar3"{
-                                        timeRating = 60 * 8
+                                    if Pasta.PastaName == "pasta1"{
+                                        TimeRating = 60 * 10
+                                    } else if Pasta.PastaName == "pasta2"{
+                                        TimeRating = 60 * 15
+                                    }else if  Pasta.PastaName == "pasta3"{
+                                        TimeRating = 60 * 8
                                     }
                                 } label: {
-                                    Text(pastar.pastarName)
+                                    Text(Pasta.PastaName)
                                         .foregroundColor(.black)
                                         .frame(width: 80,height: 30)
-                                        .background(pastar.pastarColor)
+                                        .background(Pasta.PastaColor)
                                         .cornerRadius(40)
                                         .padding(.bottom,50)
                                 }
@@ -93,8 +93,8 @@ struct timerView: View {
     }
 
 
-struct timerView_Previews: PreviewProvider {
+struct TimerView_Previews: PreviewProvider {
     static var previews: some View {
-        start_stop()
+        StartStop()
     }
 }

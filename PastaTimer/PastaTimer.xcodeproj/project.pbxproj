@@ -14,9 +14,9 @@
 		2C4A3AA229AA437300031DA6 /* PastaTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A3AA129AA437300031DA6 /* PastaTimerTests.swift */; };
 		2C4A3AAC29AA437300031DA6 /* PastaTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A3AAB29AA437300031DA6 /* PastaTimerUITests.swift */; };
 		2C4A3AAE29AA437300031DA6 /* PastaTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A3AAD29AA437300031DA6 /* PastaTimerUITestsLaunchTests.swift */; };
-		2CCDB31E29AA44CD00D58154 /* start_stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDB31B29AA44CD00D58154 /* start_stop.swift */; };
-		2CCDB31F29AA44CD00D58154 /* timerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDB31C29AA44CD00D58154 /* timerView.swift */; };
-		2CCDB32029AA44CD00D58154 /* selectPastar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDB31D29AA44CD00D58154 /* selectPastar.swift */; };
+		2CCDB31E29AA44CD00D58154 /* StartStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDB31B29AA44CD00D58154 /* StartStop.swift */; };
+		2CCDB31F29AA44CD00D58154 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDB31C29AA44CD00D58154 /* TimerView.swift */; };
+		2CCDB32029AA44CD00D58154 /* PastaSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDB31D29AA44CD00D58154 /* PastaSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +47,9 @@
 		2C4A3AA729AA437300031DA6 /* PastaTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PastaTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4A3AAB29AA437300031DA6 /* PastaTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaTimerUITests.swift; sourceTree = "<group>"; };
 		2C4A3AAD29AA437300031DA6 /* PastaTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2CCDB31B29AA44CD00D58154 /* start_stop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = start_stop.swift; sourceTree = "<group>"; };
-		2CCDB31C29AA44CD00D58154 /* timerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timerView.swift; sourceTree = "<group>"; };
-		2CCDB31D29AA44CD00D58154 /* selectPastar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = selectPastar.swift; sourceTree = "<group>"; };
+		2CCDB31B29AA44CD00D58154 /* StartStop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartStop.swift; sourceTree = "<group>"; };
+		2CCDB31C29AA44CD00D58154 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		2CCDB31D29AA44CD00D58154 /* PastaSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastaSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +100,9 @@
 		2C4A3A8F29AA437300031DA6 /* PastaTimer */ = {
 			isa = PBXGroup;
 			children = (
-				2CCDB31D29AA44CD00D58154 /* selectPastar.swift */,
-				2CCDB31B29AA44CD00D58154 /* start_stop.swift */,
-				2CCDB31C29AA44CD00D58154 /* timerView.swift */,
+				2CCDB31D29AA44CD00D58154 /* PastaSelector.swift */,
+				2CCDB31B29AA44CD00D58154 /* StartStop.swift */,
+				2CCDB31C29AA44CD00D58154 /* TimerView.swift */,
 				2C4A3A9029AA437300031DA6 /* PastaTimerApp.swift */,
 				2C4A3A9229AA437300031DA6 /* ContentView.swift */,
 				2C4A3A9429AA437300031DA6 /* Assets.xcassets */,
@@ -266,10 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CCDB31E29AA44CD00D58154 /* start_stop.swift in Sources */,
+				2CCDB31E29AA44CD00D58154 /* StartStop.swift in Sources */,
 				2C4A3A9329AA437300031DA6 /* ContentView.swift in Sources */,
-				2CCDB32029AA44CD00D58154 /* selectPastar.swift in Sources */,
-				2CCDB31F29AA44CD00D58154 /* timerView.swift in Sources */,
+				2CCDB32029AA44CD00D58154 /* PastaSelector.swift in Sources */,
+				2CCDB31F29AA44CD00D58154 /* TimerView.swift in Sources */,
 				2C4A3A9129AA437300031DA6 /* PastaTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,23 +7,23 @@
 
 import SwiftUI
 
-struct start_stop: View {
-    @State private var pastaButton : Bool = true
-    @State var resetButton : Bool = false
-    @State var duration : TimeInterval = 60 * 10
+struct StartStop: View {
+    @State private var PastaStateButton : Bool = true
+    @State var ResetButton : Bool = false
+    @State var Duration : TimeInterval = 60 * 10
     
     var body: some View {
         VStack{
-            timerView(pastaButton: $pastaButton, resetButton: $resetButton, timeRating:$duration ,duration: duration)
+            TimerView(PastaStateButton: $PastaStateButton, ResetButton: $ResetButton,TimeRating : $Duration, duration: Duration)
                     HStack{
                         Button {
-                            pastaButton.toggle()
+                            PastaStateButton.toggle()
                         } label: {
-                            Text(pastaButton ? "Start" : "Stop")
+                            Text(PastaStateButton ? "Start" : "Stop")
                                 .foregroundColor(.white)
                                 .font(.system(size:25))
                                 .frame(width: 100,height: 50)
-                                .background(pastaButton ? Color("startColor") : Color(.red))
+                                .background(PastaStateButton ? Color("startColor") : Color(.red))
                                 .cornerRadius(75)
                                 .padding(.trailing,25)
                                 .bold()
@@ -43,8 +43,8 @@ struct start_stop: View {
                 }
         }
 }
-struct start_stop_Previews: PreviewProvider {
+struct StartStop_Previews: PreviewProvider {
     static var previews: some View {
-        start_stop()
+        StartStop()
     }
 }

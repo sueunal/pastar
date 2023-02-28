@@ -7,23 +7,21 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    @State var startButton : Bool = true
     var body: some View {
-        ZStack{
-            Color("backgroundColor").ignoresSafeArea(.all)
-            VStack{
-                Text("파스타 타이머🍝")
-                    .font(.system(size:25))
-                    .bold()
-                    .padding(.top,60)
-                Text("👩🏻‍🍳")
-                    .font(.system(size:40))
-                    .padding(.top,30)
-                start_stop()
-                Spacer()
+            ZStack{
+                Color("backgroundColor").ignoresSafeArea(.all)
+                VStack{
+                    Text("파스타 타이머🍝")
+                        .font(.system(size:25))
+                        .bold()
+                        .padding(.top,60)
+                    Text("👩🏻‍🍳")
+                        .font(.system(size:40))
+                        .padding(.top,30)
+                    StartStop()
+                    Spacer()
+                }
             }
-        }
     }
 }
 struct ContentView_Previews: PreviewProvider {
