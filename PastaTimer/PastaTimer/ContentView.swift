@@ -22,7 +22,7 @@ struct ContentView: View {
                        Text("Second")
                            .tag(1)
                    }
-                    Text("조엘")
+                    JoelTabView()
                    .tabItem {
                        Image(systemName: "3.square.fill")
                        Text("조앨")
